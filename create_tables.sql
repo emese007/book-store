@@ -1,7 +1,5 @@
 -- Création des tables
 
--- Création des tables
-
 CREATE TABLE theme (
     theme_id INTEGER PRIMARY KEY,
     theme_name VARCHAR(100) NOT NULL
