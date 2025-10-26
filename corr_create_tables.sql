@@ -48,5 +48,5 @@ CREATE TABLE review (
     comment TEXT,
     review_date DATE NOT NULL,
     FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
-    FOREIGN KEY (book_id) REFERENCES book(book_id)
+    FOREIGN KEY (book_id) REFERENCES book(book_id),
 );
